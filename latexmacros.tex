@@ -6,7 +6,7 @@
 \usepackage[pdftex]{hyperref}
 \usepackage[margin=2cm,bottom=3cm,footskip=15mm]{geometry}
 \parindent0cm
-\parskip1em
+\parskip0.5em
 
 \usepackage{tikz}
 \usetikzlibrary{arrows,trees,positioning,shapes,patterns}
@@ -38,7 +38,12 @@
   belowskip       = 8pt plus 3pt
 }
 \lstnewenvironment{code}[0]{}{}
-\lstnewenvironment{showCode}[0]{\lstset{numbers=none}}{} % only shown, not compiled
+
+% only shown, not compiled:
+\lstnewenvironment{showCode}[0]{\lstset{numbers=none}}{}
+
+% only compiled, not shown:
+\newcommand{\hide}[1]{}
 
 % will the real phi please stand up
 \renewcommand{\phi}{\varphi}

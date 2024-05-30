@@ -42,4 +42,17 @@ myreverse [] = []
 myreverse (x:xs) = myreverse xs ++ [x]
 \end{code}
 
+If you look at the \texttt{.lhs} file then below this line you can find some Haskell code.
+
+\hide{
+\begin{code}
+secret :: Int
+secret = 4
+\end{code}
+}
+
+But it does not show up in the PDF document.
+Please only use this for boring or repetitive parts of your code.
+Do not hide too much from your reader.
+
 That's it, for now.
