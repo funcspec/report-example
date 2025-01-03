@@ -8,9 +8,15 @@ category: Logic
 ghc-options: -Wall
 
 dependencies:
-  - base
-  - random
   - QuickCheck
+  - base
+  - containers
+  - directory
+  - lens
+  - mtl
+  - parsec
+  - random
+  - template-haskell
 
 library:
   source-dirs: lib
