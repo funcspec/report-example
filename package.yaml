@@ -4,6 +4,7 @@ synopsis: My Haskell project
 description: See report.pdf
 maintainer: My Name <my.email@example.com>
 category: Logic
+spec-version: 0.36.0
 
 ghc-options: -Wall
 
